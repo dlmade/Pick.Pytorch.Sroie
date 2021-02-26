@@ -58,10 +58,10 @@
     "train_dataset": {
         "type": "PICKDataset",
         "args": {
-            "files_name":"/content/PICK-pytorch/data/data_examples_root/train_samples_list.csv",
-            "boxes_and_transcripts_folder":"/content/PICK-pytorch/data/data_examples_root/boxes_and_transcripts",
-            "images_folder":"/content/PICK-pytorch/data/data_examples_root/images",
-            "entities_folder":"/content/PICK-pytorch/data/data_examples_root/entities",
+            "files_name":"/content/Pick.Pytorch.Sroie/data/data_examples_root/train_samples_list.csv",
+            "boxes_and_transcripts_folder":"/content/Pick.Pytorch.Sroie/data/data_examples_root/boxes_and_transcripts",
+            "images_folder":"/content/Pick.Pytorch.Sroie/data/data_examples_root/images",
+            "entities_folder":"/content/Pick.Pytorch.Sroie/data/data_examples_root/entities",
             "iob_tagging_type":"box_and_within_box_level",
             "resized_image_size": [480, 960],
             "ignore_error": false
@@ -70,10 +70,10 @@
     "validation_dataset": {
         "type": "PICKDataset",
         "args": {
-            "files_name":"/content/PICK-pytorch/data/test_data_example/test_samples_list.csv",
-            "boxes_and_transcripts_folder":"/content/PICK-pytorch/data/test_data_example/boxes_and_transcripts",
-            "images_folder":"/content/PICK-pytorch/data/test_data_example/images",
-            "entities_folder":"/content/PICK-pytorch/data/test_data_example/entities",
+            "files_name":"/content/Pick.Pytorch.Sroie/data/test_data_example/test_samples_list.csv",
+            "boxes_and_transcripts_folder":"/content/Pick.Pytorch.Sroie/data/test_data_example/boxes_and_transcripts",
+            "images_folder":"/content/Pick.Pytorch.Sroie/data/test_data_example/images",
+            "entities_folder":"/content/Pick.Pytorch.Sroie/data/test_data_example/entities",
             "iob_tagging_type":"box_and_within_box_level",
             "resized_image_size": [480, 960],
             "ignore_error": false
